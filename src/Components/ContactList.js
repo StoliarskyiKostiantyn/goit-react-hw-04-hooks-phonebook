@@ -26,9 +26,7 @@ class ContactList extends Component {
   }
 }
 ContactList.propTypes = {
-  contactitems: PropTypes.shape({
-    name: PropTypes.string,
-    phone: PropTypes.string,
-  }),
+  name: PropTypes.string,
+  phone: PropTypes.string,
 };
 export default ContactList;
